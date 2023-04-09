@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The Inexpensive IAP reduction system</title>
+<link rel="stylesheet" href="CSS/stove.css">
+<script>
+function init() {
+  var loc = window.location.href;
+  var HTMLvalidLinkStr = 'http://validator.w3.org/check?uri=' + loc;
+  var CSSvalidLinkStr =
+'http://jigsaw.w3.org/css-validator/validator?uri=' +
+                        loc + '?profile=css3';
+  document.getElementById("vLink1").setAttribute("href",
+HTMLvalidLinkStr);
+  document.getElementById("vLink2").setAttribute("href", CSSvalidLinkStr);
+}
+window.onload = init;
+</script>
+</head>
+<body>
+  <ul class="nav">
+    <li class="news"><a href="index.html">Home</a></li>
+    <li class="news"><a href="hyopthesis.html">Hypothesis</a></li>
+    <li class="news"><a class="active" href="design.html">Design</a></li>
+    <li class="news"><a href="results.html">Results</a></li>
+    <li class="news"><a href="conclusion.html">Conclusion</a></li>
+    <li class="news"><a href="about.html">About</a></li>
+  </ul>
+
+<h1>Design</h1>
+<article>
+  <h2>Procedure followed to design and construct the cooking Stove</h2>
+  <h2 class="floatright">Thermal design assumption of the cooking stove</h2>
+  <img src="images/thermal_design_table" class="floatright" height="250" alt="Thermal Design Assumption Table">
+  <ul class="test3">
+    <li class="sources">Test the performance of designs based on the experience of Zimbabwe
+      residents who cook inside of their dwellings without proper ventilation
+      and suffer from IAP.</li>
+    <li class="sources">One square meter of discarded sheet metal 1mm thick was used to create
+      several different units.</li>
+    <li class="sources">The metal sheet was marked using some chalk to create fold lines and cut
+      lines.</li>
+    <li class="sources">The marked shapes were cut using sheet metal snips. The shapes were
+      joining by folding the edges of the two-dimensional shapes to form threedimensional shapes.</li>
+  </ul>
+<p>Note: Pop rivets were used for speed, but the shapes can all be assembled using folded tabs.</p>
+</article>
+<article>
+ <h2> Design of Combustion Chamber: </h2>
+<p>
+  The combustion chamber is designed in a
+rectangular prism shape. In the combustion chamber fuel (wood pieces) are
+combusted. It was observed that inner chamber became red hot. To reduce
+the heat losses from inner chamber, a jacket of coarse sand and heat
+resistance refractory material was added (Fire Clay). As shown in the figure
+to the right.
+</p>
+</article>
+<article>
+  <img src="images/stove_design.png"  height="300" class="floatright2" alt="Stove Design">
+  <h2>The Clean Cooking System has two components:</h2>
+  <ol class="test3">
+    <li>Stove “Cooker” to burn fuel more efficiently and
+    reduce emitted smoke.</li>
+    <li>Chimney and hood, to eliminate fumes from
+    dwelling. The chimney is isolated from the roof
+    by a 2nd outer pipe. Nails are used to isolate the
+    chimney pipe from the insulating pipe and the roof.</li>
+  </ol>
+</article>
+<img src="images/example_patterns.png" height="200" class="mar" alt="Example Patterns">
+<img src="images/stove_prototypes.png" height="200" class="mar" alt="Stove Picture">
+<footer>
+<a id="vLink1"><strong> HTML </strong> Valid! </a> |
+<a id="vLink2"><strong> CSS </strong> Valid! </a>
+</footer>
+</body>
+</html>
